@@ -55,8 +55,8 @@ class User extends Authenticatable implements JWTSubject
     }
 
     //비밀번호는 암호화를 해줌
-    public function setPasswordAttribute($value)
-    {
-        $this->attributes['password'] = bcrypt($value);
-    }
+//    public function setPasswordAttribute($value)
+//    {
+//        $this->attributes['password'] = bcrypt($value);
+//    }
 }
